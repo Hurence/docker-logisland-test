@@ -21,4 +21,3 @@ RUN cd /opt && ln -s logisland-${logisland_version} logisland
 ENV LOGISLAND_HOME /opt/logisland
 ENV PATH $PATH:$LOGISLAND_HOME/bin
 WORKDIR $LOGISLAND_HOME/
-
